@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Candal');
+canvas{
+	display: block;
+	margin: auto;
+	border:2px red dashed;
+}
+h1 , h2 , p{
+	font-family: 'Candal', sans-serif;
+}
+h1 , p{
+	text-align:  center;
+}

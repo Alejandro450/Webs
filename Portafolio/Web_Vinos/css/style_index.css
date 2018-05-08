@@ -1,0 +1,127 @@
+#cabecera{
+ width: 233px;
+ height: 150px;
+ display: block;
+ margin: auto;
+}
+
+article{
+		font-family: 'Quicksand', sans-serif;
+		text-align: justify;
+
+}
+article h2{
+	text-align: center;
+}
+address{
+	float: right;
+}
+
+/*Estilos para toda la barra*/
+
+.nav_bar ul {
+	list-style: none;
+	padding: 0;
+
+}
+.nav_bar li{
+	line-height: 3rem;
+	position: relative;
+}
+.nav_bar li ul{
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+.nav_bar a{
+	color: #ddd;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.nav_bar a:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.nav_bar ul ul{
+	display: none;
+}
+.nav_bar li:hover ul{
+	display: block;
+}
+/*Primer Nivel*/
+.nav_bar > ul {
+
+	background: #333;
+	display: table;
+	width: 100%;
+}
+.nav_bar > ul > li{
+	margin-left: 50px;
+	float: left;
+}
+/*Sub-menu*/
+.nav_bar li li{
+	background: #222;
+}
+.nav_bar > ul > li > ul{
+	top: 100%;
+}
+
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+ }
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: animate 20s infinite alternate;
+	animation-timing-function: linear;
+}
+.slider li{ 	
+	width: 100%;
+	list-style: none; }
+.slider img{ 
+ 	width: 100%; 
+}
+@keyframes animate{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%}
+	70%{margin-left: -200%}
+
+	75%{margin-left: -300%}
+	100%{margin-left: -300%}
+}
+aside{
+	float: right;
+
+}
+footer{
+	
+	background-color: #6d6e71;
+	height: 70px;
+	font-size: 15px;
+	color: black;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+footer header{
+	background-color: #404041;
+	padding: 20px;	
+	height: 40px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	color: white;		
+/*	font-family: Arial, Helvetica, sans-serif;*/
+}

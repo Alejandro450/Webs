@@ -1,0 +1,17 @@
+#miFormulario{
+	border: 1px  red dotted;
+	width: 600px;
+	float: left;
+
+}
+#zonaEnvio{
+	border: 1px  solid blue;
+	margin-left: 20px;
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+
+footer{
+	clear: both;
+}

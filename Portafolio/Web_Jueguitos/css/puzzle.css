@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#sortable{
+	margin: auto;
+	display: block;
+	width: 50%;
+	list-style-type: none;
+}
+#sortable li{
+	float: left;
+	width: 33%;
+}
+#sortable li img{
+	vertical-align: bottom;
+	width: 100%;
+	height: auto;
+}
+body{
+	background: black;
+	
+}

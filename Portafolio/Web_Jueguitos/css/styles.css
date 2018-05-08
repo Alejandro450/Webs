@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Candal');
+body{
+
+background-image: url(http://greatby8.com/wp-content/uploads/2018/03/incredible-floor-tiles-inside-matt-wooden-manufacturer-remodel-9.jpg);
+font-family: 'Candal', sans-serif;
+}
+#calculadora{
+	display: block;
+	margin: auto;	
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	border: 2px solid red;
+}
+
+p{ 
+	font-size: 25px;
+	margin-left: 70px;
+
+ }
+ footer{
+ 	text-align:  center;
+ }
+input{
+ 	margin-left: 25px;
+	width: 360px;
+	height: 35px;
+	font-size: 25px;
+
+}
+#OperacionesBasicas
+{
+	padding: 15px;
+}
+#OperacionesBasicas button {
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+#OperacionesRestantes 
+{
+	padding: 15px;
+}
+#OperacionesRestantes button
+{
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+}
+#resolucionYlimpieza 
+{
+	padding: 15px;
+}
+#respuesta 
+{
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	
+}
+#limpiarCaja 
+{
+	margin-left: 10px;
+	width: 180px;
+	height: 50px;	
+}
+button{
+	font-size: 20px;
+}

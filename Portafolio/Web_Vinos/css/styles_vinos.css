@@ -1,0 +1,42 @@
+h2{
+	text-align: center;
+}
+figure{
+	float:left;
+}
+figure img{
+ 	padding:  4px;
+ 	background-color: #666;
+ 	border-radius: 20px;
+ 	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+ 	box-shadow:#999 5px 5px 10px; 
+ }
+ figure img:hover {
+    -webkit-transform:scale(1.2);
+  }
+
+figcaption{  	 	
+ 	text-align: center;
+ 	margin-top: 5px;
+ 	display: block;
+ 	
+
+  }
+footer{
+  	clear: both;  	
+
+  }
+ 
+ #vinosDulces {
+ 	width: 91%;
+ 	border-top: 1px dashed #999;
+ 	margin: 15px auto;
+ }
+ #cocinar{
+ 	clear: both;
+ }
+ #vinosCocina{
+ 	width: 91%;
+ 	border-top: 1px dashed #999;
+ 	margin: 15px auto;
+ }
